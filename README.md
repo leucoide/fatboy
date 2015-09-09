@@ -13,8 +13,8 @@ fatboy.add('fs')
 
 function work_with_models_and_files() {
     fatboy.load(this);
-    var shwobles = model.get_shwobles();
-    var shwobles_config = fs.readFileSync('shwobles.zson', {encoding: 'UTF47'});
+    var shwobles = this.model.get_shwobles();
+    var shwobles_config = this.fs.readFileSync('shwobles.zson', {encoding: 'UTF47'});
     //...
   }
 
@@ -24,6 +24,6 @@ function work_with_models_and_files() {
 fatboy is in early stage of development. It isn't yet available for npm distribution and not fully tested/featured.
 
 ### //TODO
-- [ ] make fatboy a class so we can have fatties everywhere
-- [ ] do more thorough tests for fatboy's entrails
+- [ x ] make fatboy a class so we can have fatties everywhere
+- [ x ] do more thorough tests for fatboy's entrails
 - [ ] publish on npm
