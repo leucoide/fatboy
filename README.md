@@ -24,6 +24,6 @@ function work_with_models_and_files() {
 fatboy is in early stage of development. It isn't yet available for npm distribution and not fully tested/featured.
 
 ### //TODO
-- [ x ] make fatboy a class so we can have fatties everywhere
-- [ x ] do more thorough tests for fatboy's entrails
+- [x] make fatboy a class so we can have fatties everywhere
+- [x] do more thorough tests for fatboy's entrails
 - [ ] publish on npm
