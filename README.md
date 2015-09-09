@@ -1,4 +1,4 @@
-# fatboy
+# fatboy                       [![Build Status](https://travis-ci.org/leucoide/fatboy.svg?branch=master)](https://travis-ci.org/leucoide/fatboy)
 He's lazy and loves your place
 
 ---
